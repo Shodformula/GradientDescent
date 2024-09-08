@@ -17,4 +17,4 @@ pip install pandas scikit-learn matplotlib
 
 Run the Python script from your terminal or command line:
 ```bash
-python "Linear Regression.py"
+python linear_regression.py
