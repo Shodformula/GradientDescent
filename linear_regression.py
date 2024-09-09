@@ -98,7 +98,7 @@ print(f"Max Iterations: {best_max_iter}")
 print(f"Average: {best_average}")
 print(f"Stop Value: {best_stop_value}")
 
-# Plot Predicted vs Actual values for the best model
+# Predicted vs Actual values for the best model
 plt.figure(figsize=(10, 6))
 plt.scatter(y_test, y_test_pred_best, alpha=0.7)
 plt.xlabel("Actual Values")
@@ -106,7 +106,7 @@ plt.ylabel("Predicted Values")
 plt.title("Actual vs Predicted Values")
 plt.show()
 
-# Test MSE vs Number of Iterations for Different Learning Rates (based on exploratory results)
+# MSE vs Number of Iterations 
 plt.figure(figsize=(10, 6))
 for lr in learning_rates:
     mse_for_lr = [result['test_mse'] for result in results if result['learning_rate'] == lr]
@@ -118,7 +118,7 @@ plt.title('Test MSE vs Number of Iterations for Different Learning Rates')
 plt.legend()
 plt.show()
 
-#MSE vs Learning Rate
+# MSE vs Learning Rate
 plt.figure(figsize=(10, 6))
 learning_rate_values = [result['learning_rate'] for result in results]
 test_mse_values = [result['test_mse'] for result in results]
