@@ -1,4 +1,4 @@
-GradientDescent
+# Gradient Descent Algorithm on an Air Quality Dataset
 
 This Python script applies linear regression using gradient descent to the **AirQualityUCI** dataset. The dataset will automatically be loaded from the following URL:
 https://raw.githubusercontent.com/Shodformula/Linear-Regression-Gradient-Descent/main/AirQualityUCI.csv
